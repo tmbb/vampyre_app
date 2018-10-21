@@ -34,7 +34,6 @@ defmodule VampyreApp.Mixfile do
   defp deps do
     [
       {:benchee, "~> 0.13"},
-      {:schism, github: "tmbb/schism"},
       {:vampyre, path: "../vampyre"},
       {:phoenix, "~> 1.3.0"},
       {:phoenix_pubsub, "~> 1.0"},
